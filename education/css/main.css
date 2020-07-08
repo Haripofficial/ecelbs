@@ -37,9 +37,10 @@
 
 body {
   color: #777;
+  background: lavender;
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 16px;
+  font-weight: 350;
   line-height: 1.625em;
   position: relative
 }
@@ -2539,7 +2540,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-feature .title {
-  background: rgba(255, 255, 255, 0.15);
+  background: #FFE4D9;
   padding: 20px 0px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -2548,7 +2549,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-feature .title h4 {
-  color: #fff
+  color: #000
 }
 
 .single-feature .desc-wrap {
@@ -2572,11 +2573,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-feature:hover .title {
-  background: #f7631b
+  background: #FFE4D9
 }
 
 .single-feature:hover .desc-wrap a {
-  color: #f7631b
+  color: #000
 }
 
 @media (max-width: 991px) {
@@ -2585,7 +2586,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   .single-feature .title {
-    background: #f7631b
+    background: #FFE4D9
   }
 }
 
@@ -3005,7 +3006,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .cta-one-area {
-  background: url(../img/cta-bg.jpg) center;
+  background:#b5bccc center;
   background-size: cover;
   text-align: center;
   color: #fff
@@ -3023,7 +3024,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 576px) {
   .cta-one-area p {
-    padding: 0% 5%
+    padding: 0% 4%
   }
 }
 
@@ -3032,8 +3033,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .cta-two-area {
-  background: #f7631b;
-  padding: 90px 0px
+  background: #b5bccc;
+  padding: 60px 0px
 }
 
 .cta-two-area .cta-left {
@@ -3042,7 +3043,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .cta-two-area .cta-left h1 {
   color: #fff;
-  font-weight: 700
+  font-weight: 400
 }
 
 .cta-two-area .cta-right {
