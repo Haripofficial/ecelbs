@@ -39,7 +39,7 @@ body {
   color: #777;
   background: lavender;
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 350;
   line-height: 1.625em;
   position: relative
@@ -2540,7 +2540,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-feature .title {
-  background: #FFE4D9;
+  background: #0B1D3A;
   padding: 20px 0px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -2549,7 +2549,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-feature .title h4 {
-  color: #000
+  color: #FFF
 }
 
 .single-feature .desc-wrap {
@@ -2573,11 +2573,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-feature:hover .title {
-  background: #FFE4D9
+  background: #0B1D3A
 }
 
 .single-feature:hover .desc-wrap a {
-  color: #000
+  color: #fff
 }
 
 @media (max-width: 991px) {
@@ -2586,7 +2586,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   .single-feature .title {
-    background: #FFE4D9
+    background: #0B1D3A
   }
 }
 
