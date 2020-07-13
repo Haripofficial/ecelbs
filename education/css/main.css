@@ -39,8 +39,8 @@ body {
   color: #777;
   background: lavender;
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  font-weight: 350;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 1.625em;
   position: relative
 }
@@ -1767,6 +1767,12 @@ h6 {
   border: none
 }
 
+.img-fluid{
+  border:5px solid white;
+  border-radius:5px;
+  
+}
+
 .primary-radio {
   width: 16px;
   height: 16px;
@@ -2358,7 +2364,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-gap {
-  padding: 120px 0
+  padding: 50px 0
 }
 
 .alert-msg {
@@ -3860,11 +3866,12 @@ dl.toggle.time-line:before {
 }
 
 .gallery-area .single-imgs {
-  margin-bottom: 30px
+  margin-bottom: 30px;
+  border: 5px solid white;
 }
 
 .gallery-area .single-imgs img {
-  width: 100%
+  width: 100%;
 }
 
 .gallery-area .single-imgs .overlay-bg {
