@@ -2596,6 +2596,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
+
+#hod{
+  font-size: 1.5em;
+}
+
 .popular-course-area .owl-dots {
   text-align: center;
   bottom: 5px;
